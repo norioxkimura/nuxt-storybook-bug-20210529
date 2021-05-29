@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-storybook-bug-20210529",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "storybook": "nuxt storybook"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.24.2",
+    "core-js": "^3.13.0",
+    "nuxt": "^2.15.6"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.6",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/storybook": "^4.0.2",
+    "ts-node": "^10.0.0"
+  }
+}
